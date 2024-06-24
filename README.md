@@ -45,6 +45,14 @@
 3. 「設定」 > 「ユーザーと権限」を選択します。
 4. 「ユーザーを追加」をクリックし、サービスアカウントのメールアドレスを入力して「フル」権限を付与します。
 
+## 調査URLの記入
+
+1. インデックスステータス調査対象URLを「url_list」シートに入力
+2. インデックス率調査対象のディレクトリ、またはURL群を「directories」シート上に正規表現で指定
+
+参考：
+[Googleスプレッドシートのサンプル](https://docs.google.com/spreadsheets/d/1Weg-27nFW5TejdUyN0PKzz8mcXZi6wqcWs5kakVE5kA/)
+
 ## ファイル設置・編集 (5分)
 
 ### JSONファイルの設置
@@ -74,3 +82,4 @@ pip install pandas google-auth google-auth-oauthlib google-auth-httplib2 google-
 
 ```sh
 python main.py
+``````
